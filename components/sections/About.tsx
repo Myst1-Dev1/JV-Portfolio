@@ -66,7 +66,7 @@ export default function About() {
           <div className="pt-2">
             <a
               href="/Curriculo.pdf"
-              download="CV_Joao_Victor.jpg"
+              download="Curriculo.pdf"
               className="inline-flex items-center gap-2.5 px-6 py-3 rounded-full bg-white text-black font-semibold text-sm hover:bg-gray-200 transition-all duration-300 shadow-[0_0_15px_rgba(255,255,255,0.2)] hover:shadow-[0_0_20px_rgba(0,255,255,0.4)]"
             >
               Download CV

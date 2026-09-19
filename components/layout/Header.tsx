@@ -92,9 +92,11 @@ export default function Header() {
                 }`}
               >
                 {item.label}
-                {isActive && (
-                  <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#00FFFF] rounded-full" />
-                )}
+                <span 
+                  className={`absolute bottom-0 left-1/2 -translate-x-1/2 h-0.5 bg-[#00FFFF] rounded-full transition-all duration-300 ease-out ${
+                    isActive ? 'w-full' : 'w-0'
+                  }`} 
+                />
               </a>
             );
           })}
