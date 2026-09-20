@@ -49,6 +49,28 @@ const projects: ProjectModalData[] = [
     stack: [ 'Nextjs', 'Tailwind', 'Typescript', 'Nodejs', 'Mongodb', 'Prisma'],
     github: 'https://github.com/Myst1-Dev1/MS-Delivery'
   },
+   {
+    id: 5,
+    type: 'Pessoal',
+    title: 'Drago Tech',
+    subtitle: 'Loja com Painel de admin',
+    image: '/images/drago-tech.webp',
+    description: 'Uma Loja de eletrônicos com painel de admin.',
+    link: 'https://drago-tech-2-0.vercel.app',
+    stack: [ 'Nextjs', 'Tailwind', 'Typescript', 'Nestjs', 'Postgresql', 'Prisma'],
+    github: 'https://github.com/Myst1-Dev1/Drago-Tech-2.0'
+  },
+  {
+    id: 6,
+    type: 'Pessoal',
+    title: 'Kortex',
+    subtitle: 'Dashboard de tarefas',
+    image: '/images/kortex.png',
+    description: 'Um dashboard de gerenciamento de tarefas com chat incluso com chat de voz e compartilhamento de tela.',
+    link: 'https://kortex-navy.vercel.app',
+    stack: [ 'Nextjs', 'Tailwind', 'Typescript', 'Nestjs', 'Postgresql', 'Typeorm', 'Rabbitmq', 'Redis', 'Websocket'],
+    github: 'https://github.com/Myst1-Dev1/Kortex'
+  },
 ]
 
 export default function Projects() {
