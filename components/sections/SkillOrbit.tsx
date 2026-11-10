@@ -5,7 +5,7 @@ import Image from 'next/image';
 const skillIcons = [
   { name: 'JavaScript', src: '/images/javascript.png' },
   { name: 'Figma', src: '/images/figma.png' },
-  { name: 'WordPress', src: '/images/nextjs.png' }, // or WP/Next logo
+  { name: 'Nextjs', src: '/images/nextjs.png' },
   { name: 'TypeScript', src: '/images/typescriptIcon.png' },
   { name: 'Docker', src: '/images/docker.png' },
   { name: 'Tailwind CSS', src: '/images/tailwindIcon.png' },
@@ -28,7 +28,7 @@ export default function SkillOrbit() {
       <div className="relative z-10 w-36 h-36 sm:w-48 sm:h-48 md:w-56 md:h-56 rounded-full p-1 bg-linear-to-tr from-[#00FFFF]/80 via-white/20 to-[#00FFFF]/40 shadow-[0_0_30px_rgba(0,255,255,0.3)]">
         <div className="w-full h-full rounded-full overflow-hidden relative bg-[#1a1a1a]">
           <Image
-            src="/images/jv-photo.jpg"
+            src="/images/jv-photo.png"
             alt="João Victor"
             fill
             sizes="(max-width: 768px) 192px, 224px"
