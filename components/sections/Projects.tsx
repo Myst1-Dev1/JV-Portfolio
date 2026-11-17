@@ -41,13 +41,13 @@ const projects: ProjectModalData[] = [
   {
     id: 4,
     type: 'Pessoal',
-    title: 'MS Delivery',
-    subtitle: 'Sistema de Delivery',
-    image: '/images/ms-delivery.webp',
-    description: 'Sistema de delivery na qual os restaurantes tem acesso a um painel para gerenciar suas compras e pratos.',
-    link: 'https://ms-delivery.vercel.app',
-    stack: [ 'Nextjs', 'Tailwind', 'Typescript', 'Nodejs', 'Mongodb', 'Prisma'],
-    github: 'https://github.com/Myst1-Dev1/MS-Delivery'
+    title: 'ChronoPlus',
+    subtitle: 'Aplicativo PWA de organização de tarefas e lembretes',
+    image: '/images/chrono-plus.png',
+    description: 'Organize tarefas e agendamentos, além de poder consultar o clima para seus compromissos.',
+    link: 'https://chrono-plus-wp6m.vercel.app/login',
+    stack: [ 'Angular', 'Tailwind', 'Typescript', 'Nodejs', 'Fastify', 'Docker', 'Postgresql', 'Prisma'],
+    github: 'https://github.com/Myst1-Dev1/ChronoPlus'
   },
    {
     id: 5,
